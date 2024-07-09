@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "emd_universe:item/revontul"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [-0.5, 6.25, 2],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [-0.5, 6.25, 2],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1, 5, 2.5],
+			"scale": [1.3, 1.3, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1, 5, 2.5],
+			"scale": [1.3, 1.3, 0.7]
+		},
+		"ground": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -3.25, 0],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"gui": {
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"rotation": [0, 0, -135],
+			"translation": [0, 0, -0.75],
+			"scale": [2.5, 2.5, 1.5]
+		}
+	}
+}

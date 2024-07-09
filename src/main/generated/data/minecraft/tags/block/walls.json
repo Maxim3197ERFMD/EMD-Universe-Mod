@@ -1,0 +1,12 @@
+{
+  "values": [
+    "emd_universe:stone_tile_wall",
+    "emd_universe:polished_blackstone_tile_wall",
+    "emd_universe:end_stone_tile_wall",
+    "emd_universe:polished_stone_wall",
+    "emd_universe:sandstone_brick_wall",
+    "emd_universe:warp_nether_bricks_wall",
+    "emd_universe:snow_bricks_wall",
+    "emd_universe:polished_granite_brick_wall"
+  ]
+}

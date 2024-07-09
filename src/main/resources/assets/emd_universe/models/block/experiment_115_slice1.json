@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "emd_universe:block/experiment_115_bottom",
+		"2": "emd_universe:block/experiment_115_inner",
+		"3": "emd_universe:block/experiment_115_top",
+		"4": "emd_universe:block/experiment_115_side",
+		"particle": "emd_universe:block/experiment_115_bottom"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 1],
+			"to": [15, 8, 15],
+			"faces": {
+				"north": {"uv": [1, 8, 13, 16], "texture": "#4"},
+				"east": {"uv": [1, 8, 15, 16], "texture": "#4"},
+				"south": {"uv": [3, 8, 15, 16], "texture": "#4"},
+				"west": {"uv": [1, 8, 15, 16], "texture": "#2"},
+				"up": {"uv": [3, 1, 15, 15], "texture": "#3"},
+				"down": {"uv": [3, 1, 15, 15], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

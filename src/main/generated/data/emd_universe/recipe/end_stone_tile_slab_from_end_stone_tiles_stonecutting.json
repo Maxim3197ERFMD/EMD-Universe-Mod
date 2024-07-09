@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "emd_universe:end_stone_tiles"
+  },
+  "result": {
+    "count": 2,
+    "id": "emd_universe:end_stone_tile_slab"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:nether_bricks"
+  },
+  "result": {
+    "count": 2,
+    "id": "emd_universe:polished_nether_bricks_slab"
+  }
+}

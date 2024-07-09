@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "emd_universe:block/iron_bar_door_bottom",
+    "top": "emd_universe:block/iron_bar_door_top"
+  }
+}

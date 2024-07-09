@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "D": {
+      "item": "emd_universe:diamond_dust"
+    },
+    "E": {
+      "item": "emd_universe:emerald_dust"
+    }
+  },
+  "pattern": [
+    "#D#",
+    "E#E",
+    "#E#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:warped_netherite_ingot"
+  }
+}

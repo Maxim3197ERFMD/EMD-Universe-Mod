@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "emd_universe:sandstone_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "emd_universe:sandstone_brick_wall"
+  }
+}

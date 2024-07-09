@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emd_universe:block/stone_tile_slab"
+    },
+    "type=double": {
+      "model": "emd_universe:block/stone_tiles"
+    },
+    "type=top": {
+      "model": "emd_universe:block/stone_tile_slab_top"
+    }
+  }
+}

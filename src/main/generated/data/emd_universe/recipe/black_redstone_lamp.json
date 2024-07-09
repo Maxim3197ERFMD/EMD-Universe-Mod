@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:black_stained_glass"
+    }
+  },
+  "pattern": [
+    "SRS",
+    "RGR",
+    "SRS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:black_redstone_lamp"
+  }
+}

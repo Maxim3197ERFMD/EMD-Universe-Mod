@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "pattern": [
+    "NN",
+    "NN"
+  ],
+  "result": {
+    "count": 4,
+    "id": "emd_universe:polished_nether_bricks"
+  }
+}

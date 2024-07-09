@@ -1,0 +1,15 @@
+{
+  "values": [
+    "emd_universe:stone_tile_slab",
+    "emd_universe:polished_blackstone_tile_slab",
+    "emd_universe:smooth_end_stone_slab",
+    "emd_universe:end_stone_tile_slab",
+    "emd_universe:iron_bar_slab",
+    "emd_universe:polished_stone_slab",
+    "emd_universe:sandstone_brick_slab",
+    "emd_universe:polished_nether_bricks_slab",
+    "emd_universe:warp_nether_bricks_slab",
+    "emd_universe:snow_bricks_slab",
+    "emd_universe:polished_granite_brick_slab"
+  ]
+}

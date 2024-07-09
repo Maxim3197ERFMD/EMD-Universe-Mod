@@ -1,0 +1,9 @@
+{
+  "values": [
+    "emd_universe:raw_ruby_block",
+    "emd_universe:ruby_block",
+    "emd_universe:ruby_ore",
+    "emd_universe:deepslate_ruby_ore",
+    "emd_universe:nether_ruby_ore"
+  ]
+}

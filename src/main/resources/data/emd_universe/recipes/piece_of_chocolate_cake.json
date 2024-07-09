@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "emd_universe:chocolate_cake"
+    }
+  ],
+  "result": {
+    "count": 7,
+    "id": "emd_universe:piece_of_chocolate_cake"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "emd_universe:smooth_end_stone"
+  },
+  "result": {
+    "count": 1,
+    "id": "emd_universe:smooth_end_stone_stairs"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "emd_universe:copper_cabel"
+    },
+    "S": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:copper_coil"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emd_universe:block/smooth_end_stone_slab"
+    },
+    "type=double": {
+      "model": "emd_universe:block/smooth_end_stone"
+    },
+    "type=top": {
+      "model": "emd_universe:block/smooth_end_stone_slab_top"
+    }
+  }
+}

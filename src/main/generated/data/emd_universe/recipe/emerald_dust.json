@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "A": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "G#G",
+    "AAA"
+  ],
+  "result": {
+    "count": 2,
+    "id": "emd_universe:emerald_dust"
+  }
+}

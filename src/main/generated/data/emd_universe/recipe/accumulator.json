@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "emd_universe:copper_coil"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "emd_universe:copper_cabel"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "SRS",
+    "ASA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:accumulator"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "emd_universe:block/warp_nether_bricks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emd_universe:block/polished_blackstone_tile_slab"
+    },
+    "type=double": {
+      "model": "emd_universe:block/polished_blackstone_tiles"
+    },
+    "type=top": {
+      "model": "emd_universe:block/polished_blackstone_tile_slab_top"
+    }
+  }
+}

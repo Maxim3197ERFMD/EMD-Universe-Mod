@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "emd_universe:warp_nether_bricks"
+    }
+  },
+  "pattern": [
+    "NNN"
+  ],
+  "result": {
+    "count": 6,
+    "id": "emd_universe:warp_nether_bricks_slab"
+  }
+}

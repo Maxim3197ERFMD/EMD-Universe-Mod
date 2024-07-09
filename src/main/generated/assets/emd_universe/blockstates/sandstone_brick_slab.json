@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emd_universe:block/sandstone_brick_slab"
+    },
+    "type=double": {
+      "model": "emd_universe:block/sandstone_bricks"
+    },
+    "type=top": {
+      "model": "emd_universe:block/sandstone_brick_slab_top"
+    }
+  }
+}

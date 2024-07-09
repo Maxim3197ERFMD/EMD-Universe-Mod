@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "emd_universe:diamond_dust"
+    },
+    "E": {
+      "item": "emd_universe:accumulator"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "emd_universe:emerald_dust"
+    }
+  },
+  "pattern": [
+    "#R#",
+    "SES",
+    "#R#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:energy_ball"
+  }
+}

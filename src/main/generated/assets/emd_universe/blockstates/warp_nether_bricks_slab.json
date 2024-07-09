@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emd_universe:block/warp_nether_bricks_slab"
+    },
+    "type=double": {
+      "model": "emd_universe:block/warp_nether_bricks"
+    },
+    "type=top": {
+      "model": "emd_universe:block/warp_nether_bricks_slab_top"
+    }
+  }
+}

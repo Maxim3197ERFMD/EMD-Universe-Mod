@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "emd_universe:experiment_115"
+    }
+  ],
+  "result": {
+    "count": 7,
+    "id": "emd_universe:piece_of_experiment_115"
+  }
+}

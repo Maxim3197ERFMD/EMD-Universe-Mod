@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "A": {
+      "item": "minecraft:egg"
+    },
+    "B": {
+      "item": "emd_universe:honeysuckle"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "#A#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:honeysuckle_pie"
+  }
+}

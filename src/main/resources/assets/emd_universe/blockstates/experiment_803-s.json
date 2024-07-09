@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "emd_universe:block/experiment_803-s"
+    },
+    "bites=1": {
+      "model": "emd_universe:block/experiment_803-s_slice1"
+    },
+    "bites=2": {
+      "model": "emd_universe:block/experiment_803-s_slice2"
+    },
+    "bites=3": {
+      "model": "emd_universe:block/experiment_803-s_slice3"
+    },
+    "bites=4": {
+      "model": "emd_universe:block/experiment_803-s_slice4"
+    },
+    "bites=5": {
+      "model": "emd_universe:block/experiment_803-s_slice5"
+    },
+    "bites=6": {
+      "model": "emd_universe:block/experiment_803-s_slice6"
+    }
+  }
+}

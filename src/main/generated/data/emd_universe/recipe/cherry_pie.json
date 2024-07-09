@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "A": {
+      "item": "minecraft:egg"
+    },
+    "S": {
+      "item": "emd_universe:cherries"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "#A#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:cherry_pie"
+  }
+}

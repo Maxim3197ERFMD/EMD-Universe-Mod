@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "pattern": [
+    "##",
+    "BB",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "emd_universe:iron_bar_door"
+  }
+}

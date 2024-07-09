@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_block"
+    },
+    "E": {
+      "item": "emd_universe:warped_netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "#ES",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:metal_alloy"
+  }
+}

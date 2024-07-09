@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emd_universe:block/iron_bar_slab"
+    },
+    "type=double": {
+      "model": "emd_universe:block/iron_bar_block"
+    },
+    "type=top": {
+      "model": "emd_universe:block/iron_bar_slab_top"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "emd_universe:emerald_dust"
+    },
+    "A": {
+      "item": "emd_universe:energy_ball"
+    },
+    "S": {
+      "item": "emd_universe:accumulator"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "SAS",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emd_universe:high_voltage_battery"
+  }
+}

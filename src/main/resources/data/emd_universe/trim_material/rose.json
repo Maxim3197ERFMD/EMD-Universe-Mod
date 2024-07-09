@@ -1,0 +1,9 @@
+{
+  "asset_name": "rose",
+  "description": {
+    "color": "#DE2DB1",
+    "translate": "trim_material.emd_universe.rose"
+  },
+  "ingredient": "emd_universe:rose_gold_ingot",
+  "item_model_index": 0.66
+}

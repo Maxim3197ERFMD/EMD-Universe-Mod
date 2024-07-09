@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "pattern": [
+    "#B#",
+    "B#B",
+    "#B#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "emd_universe:iron_bar_block"
+  }
+}
