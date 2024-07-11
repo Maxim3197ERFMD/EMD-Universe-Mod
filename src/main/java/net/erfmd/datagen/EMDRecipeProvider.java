@@ -71,91 +71,91 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .pattern("SS")
                 .input('S', Blocks.POLISHED_BLACKSTONE_BRICKS)
                 .criterion(hasItem(Blocks.POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.POLISHED_BLACKSTONE_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILES)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILES)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.STONE_TILES, 4)
                 .pattern("SS")
                 .pattern("SS")
                 .input('S', Blocks.STONE_BRICKS)
                 .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.STONE_TILES)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.STONE_TILES)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SMOOTH_END_STONE, 4)
                 .pattern("SS")
                 .pattern("SS")
                 .input('S', Blocks.END_STONE)
                 .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SMOOTH_END_STONE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SMOOTH_END_STONE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.END_STONE_TILES, 4)
                 .pattern("SS")
                 .pattern("SS")
                 .input('S', Blocks.END_STONE_BRICKS)
                 .criterion(hasItem(Blocks.END_STONE_BRICKS), conditionsFromItem(Blocks.END_STONE_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.END_STONE_TILES)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.END_STONE_TILES)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.STONE_TILE_STAIRS, 4)
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .input('S', EMDBlocks.STONE_TILES)
                 .criterion(hasItem(EMDBlocks.STONE_TILES), conditionsFromItem(EMDBlocks.STONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.STONE_TILE_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.STONE_TILE_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.STONE_TILE_SLAB, 6)
                 .pattern("SSS")
                 .input('S', EMDBlocks.STONE_TILES)
                 .criterion(hasItem(EMDBlocks.STONE_TILES), conditionsFromItem(EMDBlocks.STONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.STONE_TILE_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.STONE_TILE_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_BLACKSTONE_TILE_STAIRS, 4)
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .input('S', EMDBlocks.POLISHED_BLACKSTONE_TILES)
                 .criterion(hasItem(EMDBlocks.POLISHED_BLACKSTONE_TILES), conditionsFromItem(EMDBlocks.POLISHED_BLACKSTONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILE_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILE_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_BLACKSTONE_TILE_SLAB, 6)
                 .pattern("SSS")
                 .input('S', EMDBlocks.POLISHED_BLACKSTONE_TILES)
                 .criterion(hasItem(EMDBlocks.POLISHED_BLACKSTONE_TILES), conditionsFromItem(EMDBlocks.POLISHED_BLACKSTONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILE_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILE_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SMOOTH_END_STONE_STAIRS, 4)
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .input('S', EMDBlocks.SMOOTH_END_STONE)
                 .criterion(hasItem(EMDBlocks.SMOOTH_END_STONE), conditionsFromItem(EMDBlocks.SMOOTH_END_STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SMOOTH_END_STONE_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SMOOTH_END_STONE_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SMOOTH_END_STONE_SLAB, 6)
                 .pattern("SSS")
                 .input('S', EMDBlocks.SMOOTH_END_STONE)
                 .criterion(hasItem(EMDBlocks.SMOOTH_END_STONE), conditionsFromItem(EMDBlocks.SMOOTH_END_STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SMOOTH_END_STONE_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SMOOTH_END_STONE_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.END_STONE_TILE_STAIRS, 4)
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .input('S', EMDBlocks.END_STONE_TILES)
                 .criterion(hasItem(EMDBlocks.END_STONE_TILES), conditionsFromItem(EMDBlocks.END_STONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.END_STONE_TILE_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.END_STONE_TILE_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.END_STONE_TILE_SLAB, 6)
                 .pattern("SSS")
                 .input('S', EMDBlocks.END_STONE_TILES)
                 .criterion(hasItem(EMDBlocks.END_STONE_TILES), conditionsFromItem(EMDBlocks.END_STONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.END_STONE_TILE_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.END_STONE_TILE_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDBlocks.STONE_TILE_WALL, 6)
                 .pattern("SSS")
                 .pattern("SSS")
                 .input('S', EMDBlocks.STONE_TILES)
                 .criterion(hasItem(EMDBlocks.STONE_TILES), conditionsFromItem(EMDBlocks.STONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.STONE_TILE_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.STONE_TILE_WALL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDBlocks.POLISHED_BLACKSTONE_TILE_WALL, 6)
                 .pattern("SSS")
                 .pattern("SSS")
                 .input('S', EMDBlocks.POLISHED_BLACKSTONE_TILES)
                 .criterion(hasItem(EMDBlocks.POLISHED_BLACKSTONE_TILES), conditionsFromItem(EMDBlocks.POLISHED_BLACKSTONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILE_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_BLACKSTONE_TILE_WALL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDBlocks.END_STONE_TILE_WALL, 6)
                 .pattern("SSS")
                 .pattern("SSS")
                 .input('S', EMDBlocks.END_STONE_TILES)
                 .criterion(hasItem(EMDBlocks.END_STONE_TILES), conditionsFromItem(EMDBlocks.END_STONE_TILES))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.END_STONE_TILE_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.END_STONE_TILE_WALL)));
 
 
 
@@ -169,7 +169,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.BLACK_STAINED_GLASS), conditionsFromItem(Blocks.BLACK_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.BLACK_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.BLACK_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.BLUE_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -180,7 +180,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.BLUE_STAINED_GLASS), conditionsFromItem(Blocks.BLUE_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.BLUE_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.BLUE_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.BROWN_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -191,7 +191,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.BROWN_STAINED_GLASS), conditionsFromItem(Blocks.BROWN_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.BROWN_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.BROWN_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.CYAN_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -202,7 +202,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.CYAN_STAINED_GLASS), conditionsFromItem(Blocks.CYAN_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.CYAN_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.CYAN_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.GRAY_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -213,7 +213,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.GRAY_STAINED_GLASS), conditionsFromItem(Blocks.GRAY_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.GRAY_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.GRAY_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.GREEN_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -224,7 +224,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.GREEN_STAINED_GLASS), conditionsFromItem(Blocks.GREEN_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.GREEN_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.GREEN_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.LIGHT_BLUE_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -235,7 +235,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.LIGHT_BLUE_STAINED_GLASS), conditionsFromItem(Blocks.LIGHT_BLUE_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.LIGHT_BLUE_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.LIGHT_BLUE_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.LIGHT_GRAY_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -246,7 +246,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.LIGHT_GRAY_STAINED_GLASS), conditionsFromItem(Blocks.LIGHT_GRAY_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.LIGHT_GRAY_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.LIGHT_GRAY_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.LIME_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -257,7 +257,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.LIME_STAINED_GLASS), conditionsFromItem(Blocks.LIME_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.LIME_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.LIME_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.MAGENTA_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -268,7 +268,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.MAGENTA_STAINED_GLASS), conditionsFromItem(Blocks.MAGENTA_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.MAGENTA_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.MAGENTA_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.ORANGE_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -279,7 +279,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.ORANGE_STAINED_GLASS), conditionsFromItem(Blocks.ORANGE_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.ORANGE_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.ORANGE_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.PINK_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -290,7 +290,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.PINK_STAINED_GLASS), conditionsFromItem(Blocks.PINK_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.PINK_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.PINK_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.PURPLE_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -301,7 +301,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.PURPLE_STAINED_GLASS), conditionsFromItem(Blocks.PURPLE_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.PURPLE_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.PURPLE_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.RED_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -312,7 +312,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.RED_STAINED_GLASS), conditionsFromItem(Blocks.RED_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.RED_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.RED_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.WHITE_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -323,7 +323,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.WHITE_STAINED_GLASS), conditionsFromItem(Blocks.WHITE_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.WHITE_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.WHITE_REDSTONE_LAMP)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.YELLOW_REDSTONE_LAMP, 1)
                 .pattern("SRS")
                 .pattern("RGR")
@@ -334,7 +334,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.REDSTONE_LAMP), conditionsFromItem(Blocks.REDSTONE_LAMP))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Blocks.YELLOW_STAINED_GLASS), conditionsFromItem(Blocks.YELLOW_STAINED_GLASS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.YELLOW_REDSTONE_LAMP)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.YELLOW_REDSTONE_LAMP)));
 
 
 
@@ -348,7 +348,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(EMDItems.ENERGY_BALL), conditionsFromItem(EMDItems.ENERGY_BALL))
                 .criterion(hasItem(EMDItems.ACCUMULATOR), conditionsFromItem(EMDItems.ACCUMULATOR))
                 .criterion(hasItem(EMDItems.EMERALD_DUST), conditionsFromItem(EMDItems.EMERALD_DUST))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.HIGH_VOLTAGE_BATTERY)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.HIGH_VOLTAGE_BATTERY)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.COPPER_COIL, 1)
                 .pattern("###")
                 .pattern("#S#")
@@ -357,14 +357,14 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.IRON_NUGGET)
                 .criterion(hasItem(EMDItems.COPPER_CABLE), conditionsFromItem(EMDItems.COPPER_CABLE))
                 .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.COPPER_COIL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.COPPER_COIL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.COPPER_CABLE, 3)
                 .pattern("#S")
                 .input('#', Items.SHEARS)
                 .input('S', Items.COPPER_INGOT)
                 .criterion(hasItem(Items.SHEARS), conditionsFromItem(Items.SHEARS))
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.COPPER_CABLE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.COPPER_CABLE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.EMERALD_DUST, 2)
                 .pattern("#S#")
                 .pattern("G#G")
@@ -377,7 +377,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_PICKAXE), conditionsFromItem(Items.IRON_PICKAXE))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.EMERALD_DUST)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.EMERALD_DUST)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.ACCUMULATOR, 1)
                 .pattern("#S#")
                 .pattern("SRS")
@@ -390,7 +390,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(EMDItems.COPPER_CABLE), conditionsFromItem(EMDItems.COPPER_CABLE))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(EMDItems.COPPER_COIL), conditionsFromItem(EMDItems.COPPER_COIL))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ACCUMULATOR)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ACCUMULATOR)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.ENERGY_BALL, 1)
                 .pattern("#R#")
                 .pattern("SES")
@@ -403,7 +403,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(EMDItems.EMERALD_DUST), conditionsFromItem(EMDItems.EMERALD_DUST))
                 .criterion(hasItem(EMDItems.DIAMOND_DUST), conditionsFromItem(EMDItems.DIAMOND_DUST))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ENERGY_BALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ENERGY_BALL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.DIAMOND_DUST, 2)
                 .pattern("#R#")
                 .pattern("SES")
@@ -416,7 +416,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.DIAMOND_DUST)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.DIAMOND_DUST)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.SPECIAL_STORAGE, 1)
                 .pattern("#R#")
                 .pattern("SES")
@@ -429,7 +429,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(EMDItems.DIAMOND_DUST), conditionsFromItem(EMDItems.DIAMOND_DUST))
                 .criterion(hasItem(EMDItems.ENERGY_BALL), conditionsFromItem(EMDItems.ENERGY_BALL))
                 .criterion(hasItem(EMDItems.EMERALD_DUST), conditionsFromItem(EMDItems.EMERALD_DUST))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.SPECIAL_STORAGE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.SPECIAL_STORAGE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.METAL_ALLOY, 1)
                 .pattern("###")
                 .pattern("#ES")
@@ -440,7 +440,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(EMDItems.WARPED_NETHERITE_INGOT), conditionsFromItem(EMDItems.WARPED_NETHERITE_INGOT))
                 .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
                 .criterion(hasItem(Blocks.COPPER_BLOCK), conditionsFromItem(Blocks.COPPER_BLOCK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.METAL_ALLOY)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.METAL_ALLOY)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, EMDItems.WARPED_NETHERITE_INGOT, 1)
                 .pattern("#D#")
                 .pattern("E#E")
@@ -451,7 +451,19 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(EMDItems.DIAMOND_DUST), conditionsFromItem(EMDItems.DIAMOND_DUST))
                 .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
                 .criterion(hasItem(EMDItems.EMERALD_DUST), conditionsFromItem(EMDItems.EMERALD_DUST))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.WARPED_NETHERITE_INGOT)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.WARPED_NETHERITE_INGOT)));
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, EMDBlocks.IRON_BAR_DOOR, 1)
+                .pattern("##")
+                .pattern("EE")
+                .pattern("##")
+                .input('#', Items.IRON_INGOT)
+                .input('E', Items.IRON_BARS)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.IRON_BARS), conditionsFromItem(Items.IRON_BARS))
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.IRON_BAR_DOOR)));
 
 
 
@@ -463,7 +475,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('R', Blocks.REDSTONE_BLOCK)
                 .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
                 .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.REDSTONE_HEART)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.REDSTONE_HEART)));
 
 
 
@@ -479,7 +491,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.EGG), conditionsFromItem(Items.EGG))
                 .criterion(hasItem(Items.COCOA_BEANS), conditionsFromItem(Items.COCOA_BEANS))
                 .criterion(hasItem(Items.WHEAT), conditionsFromItem(Items.WHEAT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.CHOCOLATE_CAKE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.CHOCOLATE_CAKE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, EMDBlocks.EXPERIMENT_115, 1)
                 .pattern("###")
                 .pattern("ARA")
@@ -492,7 +504,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.EGG), conditionsFromItem(Items.EGG))
                 .criterion(hasItem(Items.SWEET_BERRIES), conditionsFromItem(Items.SWEET_BERRIES))
                 .criterion(hasItem(Items.COOKIE), conditionsFromItem(Items.COOKIE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.EXPERIMENT_115)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.EXPERIMENT_115)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, EMDBlocks.EXPERIMENT_803S, 1)
                 .pattern("###")
                 .pattern("ARA")
@@ -505,7 +517,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.SPIDER_EYE), conditionsFromItem(Items.SPIDER_EYE))
                 .criterion(hasItem(Items.ROTTEN_FLESH), conditionsFromItem(Items.ROTTEN_FLESH))
                 .criterion(hasItem(Items.WHEAT), conditionsFromItem(Items.WHEAT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.EXPERIMENT_803S)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.EXPERIMENT_803S)));
 
 
 
@@ -517,7 +529,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('A', Items.APPLE)
                 .criterion(hasItem(EMDItems.CARAMEL), conditionsFromItem(EMDItems.CARAMEL))
                 .criterion(hasItem(Items.APPLE), conditionsFromItem(Items.APPLE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.CARAMEL_APPLE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.CARAMEL_APPLE)));
 
 
 
@@ -526,7 +538,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .pattern("T")
                 .input('T', Items.TORCH)
                 .criterion(hasItem(Items.TORCH), conditionsFromItem(Items.TORCH))
-                .offerTo(exporter, Identifier.of(getRecipeName(Items.LIGHT)));
+                .offerTo(exporter, new Identifier(getRecipeName(Items.LIGHT)));
 
 
 
@@ -538,7 +550,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('A', Items.APPLE)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
                 .criterion(hasItem(Items.APPLE), conditionsFromItem(Items.APPLE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_APPLE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_APPLE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, EMDItems.ROSE_GOLDEN_SWORD, 1)
                 .pattern(" R ")
                 .pattern(" R ")
@@ -547,33 +559,33 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_SWORD)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_SWORD)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, EMDItems.ROSE_GOLDEN_HELMET, 1)
                 .pattern("RRR")
                 .pattern("R R")
                 .input('R', EMDItems.ROSE_GOLD_INGOT)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_HELMET)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_HELMET)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, EMDItems.ROSE_GOLDEN_CHESTPLATE, 1)
                 .pattern("R R")
                 .pattern("RRR")
                 .pattern("RRR")
                 .input('R', EMDItems.ROSE_GOLD_INGOT)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_CHESTPLATE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_CHESTPLATE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, EMDItems.ROSE_GOLDEN_LEGGINGS, 1)
                 .pattern("RRR")
                 .pattern("R R")
                 .pattern("R R")
                 .input('R', EMDItems.ROSE_GOLD_INGOT)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_LEGGINGS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_LEGGINGS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, EMDItems.ROSE_GOLDEN_BOOTS, 1)
                 .pattern("R R")
                 .pattern("R R")
                 .input('R', EMDItems.ROSE_GOLD_INGOT)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_BOOTS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_BOOTS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, EMDItems.ROSE_GOLDEN_AXE, 1)
                 .pattern("RR ")
                 .pattern("RS ")
@@ -582,7 +594,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_AXE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_AXE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, EMDItems.ROSE_GOLDEN_PICKAXE, 1)
                 .pattern("RRR")
                 .pattern(" S ")
@@ -591,7 +603,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_PICKAXE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_PICKAXE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, EMDItems.ROSE_GOLDEN_SHOVEL, 1)
                 .pattern(" R ")
                 .pattern(" S ")
@@ -600,7 +612,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_SHOVEL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_SHOVEL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, EMDItems.ROSE_GOLDEN_HOE, 1)
                 .pattern("RR ")
                 .pattern(" S ")
@@ -609,7 +621,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(EMDItems.ROSE_GOLD_INGOT), conditionsFromItem(EMDItems.ROSE_GOLD_INGOT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.ROSE_GOLDEN_HOE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.ROSE_GOLDEN_HOE)));
 
 
 
@@ -622,7 +634,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(EMDItems.HONEYSUCKLE), conditionsFromItem(EMDItems.HONEYSUCKLE))
                 .criterion(hasItem(Items.EGG), conditionsFromItem(Items.EGG))
                 .criterion(hasItem(Items.WHEAT), conditionsFromItem(Items.WHEAT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.HONEYSUCKLE_PIE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.HONEYSUCKLE_PIE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, EMDItems.CHERRY_PIE, 1)
                 .pattern("SSS")
                 .pattern("#A#")
@@ -632,7 +644,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(EMDItems.CHERRIES), conditionsFromItem(EMDItems.CHERRIES))
                 .criterion(hasItem(Items.EGG), conditionsFromItem(Items.EGG))
                 .criterion(hasItem(Items.WHEAT), conditionsFromItem(Items.WHEAT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDItems.CHERRY_PIE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDItems.CHERRY_PIE)));
 
 
 
@@ -644,18 +656,18 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('#', Items.IRON_NUGGET)
                 .criterion(hasItem(Blocks.IRON_BARS), conditionsFromItem(Blocks.IRON_BARS))
                 .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.IRON_BAR_BLOCK)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.IRON_BAR_BLOCK)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.IRON_BAR_SLAB, 6)
                 .pattern("BBB")
                 .input('B', EMDBlocks.IRON_BAR_BLOCK)
                 .criterion(hasItem(EMDBlocks.IRON_BAR_BLOCK), conditionsFromItem(EMDBlocks.IRON_BAR_BLOCK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.IRON_BAR_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.IRON_BAR_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.IRON_BAR_TRAPDOOR, 2)
                 .pattern("BBB")
                 .pattern("BBB")
                 .input('B', EMDBlocks.IRON_BAR_BLOCK)
                 .criterion(hasItem(EMDBlocks.IRON_BAR_BLOCK), conditionsFromItem(EMDBlocks.IRON_BAR_BLOCK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.IRON_BAR_TRAPDOOR)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.IRON_BAR_TRAPDOOR)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.IRON_BAR_DOOR, 3)
                 .pattern("##")
                 .pattern("BB")
@@ -664,7 +676,7 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('#', Items.IRON_INGOT)
                 .criterion(hasItem(Blocks.IRON_BARS), conditionsFromItem(Blocks.IRON_BARS))
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.IRON_BAR_DOOR)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.IRON_BAR_DOOR)));
 
 
 
@@ -673,37 +685,37 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .pattern("SS")
                 .input('S', Blocks.STONE_SLAB)
                 .criterion(hasItem(Blocks.STONE_SLAB), conditionsFromItem(Blocks.STONE_SLAB))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_STONE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_STONE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_STONE_STAIRS, 4)
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .input('S', EMDBlocks.POLISHED_STONE)
                 .criterion(hasItem(EMDBlocks.POLISHED_STONE), conditionsFromItem(EMDBlocks.POLISHED_STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_STONE_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_STONE_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_STONE_SLAB, 6)
                 .pattern("SSS")
                 .input('S', EMDBlocks.POLISHED_STONE)
                 .criterion(hasItem(EMDBlocks.POLISHED_STONE), conditionsFromItem(EMDBlocks.POLISHED_STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_STONE_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_STONE_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_STONE_WALL, 6)
                 .pattern("SSS")
                 .pattern("SSS")
                 .input('S', EMDBlocks.POLISHED_STONE)
                 .criterion(hasItem(EMDBlocks.POLISHED_STONE), conditionsFromItem(EMDBlocks.POLISHED_STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_STONE_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_STONE_WALL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.CHISELED_POLISHED_STONE, 1)
                 .pattern("S")
                 .pattern("S")
                 .input('S', EMDBlocks.POLISHED_STONE)
                 .criterion(hasItem(EMDBlocks.POLISHED_STONE), conditionsFromItem(EMDBlocks.POLISHED_STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.CHISELED_POLISHED_STONE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.CHISELED_POLISHED_STONE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.CHISELED_STONE, 1)
                 .pattern("S")
                 .pattern("S")
                 .input('S', Blocks.STONE)
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.CHISELED_STONE)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.CHISELED_STONE)));
 
 
 
@@ -712,31 +724,31 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .pattern("SS")
                 .input('S', Blocks.CUT_SANDSTONE)
                 .criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SANDSTONE_BRICKS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SANDSTONE_BRICKS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SANDSTONE_BRICK_STAIRS, 4)
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .input('S', EMDBlocks.SANDSTONE_BRICKS)
                 .criterion(hasItem(EMDBlocks.SANDSTONE_BRICKS), conditionsFromItem(EMDBlocks.SANDSTONE_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SANDSTONE_BRICK_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SANDSTONE_BRICK_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SANDSTONE_BRICK_SLAB, 6)
                 .pattern("SSS")
                 .input('S', EMDBlocks.SANDSTONE_BRICKS)
                 .criterion(hasItem(EMDBlocks.SANDSTONE_BRICKS), conditionsFromItem(EMDBlocks.SANDSTONE_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SANDSTONE_BRICK_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SANDSTONE_BRICK_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SANDSTONE_BRICK_WALL, 6)
                 .pattern("SSS")
                 .pattern("SSS")
                 .input('S', EMDBlocks.SANDSTONE_BRICKS)
                 .criterion(hasItem(EMDBlocks.SANDSTONE_BRICKS), conditionsFromItem(EMDBlocks.SANDSTONE_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SANDSTONE_BRICK_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SANDSTONE_BRICK_WALL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.CHISELED_SANDSTONE_BRICKS, 1)
                 .pattern("S")
                 .pattern("S")
                 .input('S', EMDBlocks.SANDSTONE_BRICK_SLAB)
                 .criterion(hasItem(EMDBlocks.SANDSTONE_BRICK_SLAB), conditionsFromItem(EMDBlocks.SANDSTONE_BRICK_SLAB))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.CHISELED_SANDSTONE_BRICKS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.CHISELED_SANDSTONE_BRICKS)));
 
 
 
@@ -745,19 +757,19 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .pattern("NN")
                 .input('N', Blocks.NETHER_BRICKS)
                 .criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_NETHER_BRICKS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_NETHER_BRICKS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_NETHER_BRICK_STAIRS, 4)
                 .pattern("N  ")
                 .pattern("NN ")
                 .pattern("NNN")
                 .input('N', EMDBlocks.POLISHED_NETHER_BRICKS)
                 .criterion(hasItem(EMDBlocks.POLISHED_NETHER_BRICKS), conditionsFromItem(EMDBlocks.POLISHED_NETHER_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_NETHER_BRICK_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_NETHER_BRICK_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_NETHER_BRICK_SLAB, 6)
                 .pattern("NNN")
                 .input('N', EMDBlocks.POLISHED_NETHER_BRICKS)
                 .criterion(hasItem(EMDBlocks.POLISHED_NETHER_BRICKS), conditionsFromItem(EMDBlocks.POLISHED_NETHER_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_NETHER_BRICK_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_NETHER_BRICK_SLAB)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.WARP_NETHER_BRICKS, 1)
                 .pattern("*N")
@@ -766,25 +778,25 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .input('*', Blocks.WARPED_WART_BLOCK)
                 .criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS))
                 .criterion(hasItem(Blocks.WARPED_WART_BLOCK), conditionsFromItem(Blocks.WARPED_WART_BLOCK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.WARP_NETHER_BRICKS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.WARP_NETHER_BRICKS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.WARP_NETHER_BRICK_STAIRS, 4)
                 .pattern("N  ")
                 .pattern("NN ")
                 .pattern("NNN")
                 .input('N', EMDBlocks.WARP_NETHER_BRICKS)
                 .criterion(hasItem(EMDBlocks.WARP_NETHER_BRICKS), conditionsFromItem(EMDBlocks.WARP_NETHER_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.WARP_NETHER_BRICK_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.WARP_NETHER_BRICK_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.WARP_NETHER_BRICK_SLAB, 6)
                 .pattern("NNN")
                 .input('N', EMDBlocks.WARP_NETHER_BRICKS)
                 .criterion(hasItem(EMDBlocks.WARP_NETHER_BRICKS), conditionsFromItem(EMDBlocks.WARP_NETHER_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.WARP_NETHER_BRICK_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.WARP_NETHER_BRICK_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.WARP_NETHER_BRICK_WALL, 6)
                 .pattern("NNN")
                 .pattern("NNN")
                 .input('N', EMDBlocks.WARP_NETHER_BRICKS)
                 .criterion(hasItem(EMDBlocks.WARP_NETHER_BRICKS), conditionsFromItem(EMDBlocks.WARP_NETHER_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.WARP_NETHER_BRICK_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.WARP_NETHER_BRICK_WALL)));
 
 
 
@@ -793,25 +805,25 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .pattern("SS")
                 .input('S', Blocks.SNOW_BLOCK)
                 .criterion(hasItem(Blocks.SNOW_BLOCK), conditionsFromItem(Blocks.SNOW_BLOCK))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SNOW_BRICKS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SNOW_BRICKS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SNOW_BRICK_STAIRS, 4)
                 .pattern("S  ")
                 .pattern("SS ")
                 .pattern("SSS")
                 .input('S', EMDBlocks.SNOW_BRICKS)
                 .criterion(hasItem(EMDBlocks.SNOW_BRICKS), conditionsFromItem(EMDBlocks.SNOW_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SNOW_BRICK_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SNOW_BRICK_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SNOW_BRICK_SLAB, 6)
                 .pattern("SSS")
                 .input('S', EMDBlocks.SNOW_BRICKS)
                 .criterion(hasItem(EMDBlocks.SNOW_BRICKS), conditionsFromItem(EMDBlocks.SNOW_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SNOW_BRICK_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SNOW_BRICK_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.SNOW_BRICK_WALL, 6)
                 .pattern("SSS")
                 .pattern("SSS")
                 .input('S', EMDBlocks.SNOW_BRICKS)
                 .criterion(hasItem(EMDBlocks.SNOW_BRICKS), conditionsFromItem(EMDBlocks.SNOW_BRICKS))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.SNOW_BRICK_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.SNOW_BRICK_WALL)));
 
 
 
@@ -820,25 +832,26 @@ public class EMDRecipeProvider extends FabricRecipeProvider {
                 .pattern("GG")
                 .input('G', Blocks.POLISHED_GRANITE)
                 .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICKS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICKS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_GRANITE_BRICK_STAIRS, 4)
                 .pattern("G  ")
                 .pattern("GG ")
                 .pattern("GGG")
                 .input('G', Blocks.POLISHED_GRANITE)
                 .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICK_STAIRS)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICK_STAIRS)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_GRANITE_BRICK_SLAB, 6)
                 .pattern("GGG")
                 .input('G', Blocks.POLISHED_GRANITE)
                 .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICK_SLAB)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICK_SLAB)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, EMDBlocks.POLISHED_GRANITE_BRICK_WALL, 6)
                 .pattern("GGG")
                 .pattern("GGG")
                 .input('G', Blocks.POLISHED_GRANITE)
                 .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
-                .offerTo(exporter, Identifier.of(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICK_WALL)));
+                .offerTo(exporter, new Identifier(getRecipeName(EMDBlocks.POLISHED_GRANITE_BRICK_WALL)));
+
 
 
 
